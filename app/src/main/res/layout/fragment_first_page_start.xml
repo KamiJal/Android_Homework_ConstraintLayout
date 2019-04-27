@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/first_page_constraint_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.LeadFragment" >
+
+    <ImageView
+        android:id="@+id/first_page_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:src="@tools:sample/backgrounds/scenic"
+        android:contentDescription="@string/lead_image" />
+
+    <TextView
+        android:id="@+id/first_page_title_01"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/dietdidot"
+        android:text="@string/first_page_title_01"
+        android:textColor="@color/colorBlack"
+        android:textSize="60sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/first_page_image" />
+
+    <TextView
+        android:id="@+id/first_page_title_02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:fontFamily="@font/avantgardeextlt"
+        android:text="@string/first_page_title_02"
+        android:textColor="@color/colorBlack"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/first_page_title_01"
+        app:layout_constraintTop_toBottomOf="@+id/first_page_title_01" />
+
+    <TextView
+        android:id="@+id/first_page_title_03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:fontFamily="@font/avantgardemd"
+        android:text="@string/first_page_title_03"
+        android:textColor="@color/colorBlack"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/first_page_title_02"
+        app:layout_constraintTop_toTopOf="@+id/first_page_title_02" />
+
+    <TextView
+        android:id="@+id/first_page_lead_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:fontFamily="@font/avantgardeextlt"
+        android:lineSpacingExtra="3sp"
+        android:text="@string/first_page_lead_text"
+        android:textAlignment="center"
+        android:textColor="@color/colorBlack"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="@+id/first_page_title_03"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/first_page_title_01"
+        app:layout_constraintTop_toBottomOf="@+id/first_page_title_02" />
+
+    <TextView
+        android:id="@+id/first_page_main_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/fowviel"
+        android:text="@string/first_page_main_text"
+        android:textColor="@color/colorBlack"
+        app:layout_constraintEnd_toStartOf="@+id/first_page_lead_text"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/first_page_lead_text"
+        app:layout_constraintTop_toBottomOf="@+id/first_page_lead_text" />
+
+    <ImageView
+        android:id="@+id/first_page_design_box"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="500dp"
+        android:background="@color/colorGreyExtLight"
+        app:layout_constraintBottom_toBottomOf="@+id/first_page_main_text"
+        app:layout_constraintEnd_toStartOf="@+id/first_page_main_text"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/first_page_main_text"
+        android:contentDescription="@string/first_page_design_box" />
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Android_Homework_ConstraintLayout</string>
+    <string name="back">Back</string>
+    <string name="forward">Forward</string>
+    <string name="bmw_x7">BMW X7</string>
+    <string name="lead_image">Lead Image</string>
+    <string name="first_page_design_box">First Page Design Box</string>
+    <string name="first_page_title_01">Большой.</string>
+    <string name="first_page_title_02">Очаровательный.</string>
+    <string name="first_page_title_03">Элегантный.</string>
+    <string name="first_page_lead_text">Яркий. Стильный. Внушительный. Новый флагман семейства Х скоро выйдет на сцену, затмив собой прочие большие внедорожники. Дизайнерски смелый и технически совершенный – BMW X7</string>
+    <string name="first_page_main_text">\t\t\tО нем не перестают говорить с момента выхода концепткара – его ждут многие поклонники бренда по всему миру, и они готовы были сделать заказ, даже не увидев серийной версии. Но вот и ее явили миру по бьющий точно в цель комментарий Джозефа Кабана, руководителя дизайнерского подразделения BMW Group: «Новый BMW X7 является не только флагманом семейства X, но и определяет прогрессивный подход марки BMW к автомобильной роскоши».</string>
+</resources>
