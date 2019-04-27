@@ -2,6 +2,7 @@ package com.kamijal.android_homework_constraintlayout.fragments;
 
 
 import android.os.Bundle;
+import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.constraint.ConstraintLayout;
 import android.support.v4.app.Fragment;
@@ -16,9 +17,9 @@ import com.kamijal.android_homework_constraintlayout.R;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class LeadFragment extends BaseFragment {
+public class FirstPageFragment extends BaseFragment {
 
-    public LeadFragment() {
+    public FirstPageFragment() {
         // Required empty public constructor
     }
 
@@ -37,7 +38,7 @@ public class LeadFragment extends BaseFragment {
     }
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+    public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_first_page_start, container, false);

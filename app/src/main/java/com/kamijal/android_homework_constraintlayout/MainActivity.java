@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.view.MenuItem;
 
 import com.kamijal.android_homework_constraintlayout.fragments.BaseFragment;
-import com.kamijal.android_homework_constraintlayout.fragments.LeadFragment;
+import com.kamijal.android_homework_constraintlayout.fragments.FirstPageFragment;
 import com.kamijal.android_homework_constraintlayout.util.ConstraintSlideManager;
 
 import java.util.ArrayList;
@@ -74,6 +74,6 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
     }
 
     private void initFragments(){
-        fragments.add(new LeadFragment());
+        fragments.add(new FirstPageFragment());
     }
 }
